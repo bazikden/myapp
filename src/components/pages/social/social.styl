@@ -1,0 +1,51 @@
+@import "./LeftSide/leftSide.styl"
+@import "./Main/main.styl"
+@import "Main/profile/postMessageBlock/postMessageBlock.styl"
+@import "./RightSide/rightSide.styl"
+
+
+.social
+  border 1px solid transparent
+  margin 0 auto
+  margin-top 110px
+  display flex
+
+@media (max-width: 425px)
+  .social
+    display block
+    flex-wrap wrap
+    .left-side
+      z-index 0
+      margin 0 auto
+      padding 0 10px
+      position relative
+      display block
+      flex-direction row
+      .left-side-block
+        .profile-card
+          width 100%
+
+        nav
+          display flex
+          justify-content space-between
+
+          .social-links-block
+            margin 0
+            max-width 75px
+            padding-bottom 20px
+            cursor pointer
+            text-align center
+            a
+              display block
+              margin 0 auto
+              cursor pointer
+              text-align center
+              font-size 14px
+
+
+            img
+              display none
+
+
+        .social-chat
+          display none

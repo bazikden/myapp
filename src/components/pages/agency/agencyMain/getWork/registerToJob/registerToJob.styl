@@ -1,0 +1,208 @@
+.registerToJob
+  max-width 1140px
+  margin 0 auto
+  .registerToJobHeader
+    text-align center
+    font-family: 'Overpass'
+    font-size: 42px
+    font-weight: 600
+    color: #000000
+    margin 100px 0 22px
+    padding-top 59px
+
+  .registerToJobAttention
+    font-family: 'SourceSansPro'
+    font-size: 18px
+    text-align: center
+    color: #010000
+    margin 0
+  .formRegisterToJob
+    z-index 10
+    margin 63px 24px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+
+    .formRegisterToJobName,.formRegisterToJobEmail,.formRegisterToJobPhone
+      flex-basis 30%
+      margin-bottom 20px
+      .formRegisterToJobError
+        padding-left 5px
+        font-size 14px
+        font-family "Roboto"
+        color red
+
+      .formRegisterToJobNameInput,.formRegisterToJobEmailInput,.formRegisterToJobPhoneInput
+        border 1px solid #b7b7b7
+        height 56px
+        border-radius 5px
+        padding 15px
+        position relative
+
+
+        input
+          z-index 10
+          background transparent
+          border none
+          background white
+
+        div
+          position absolute
+          background white
+          top 15px
+          z-index 15
+          transition 2
+
+
+
+    .formRegisterToJobPosition,.formRegisterToJobPhoto
+      flex-basis 48%
+
+      .formRegisterToJobPositionInput,.formRegisterToJobPhotoInput
+        height 56px
+        border 1px solid #b7b7b7
+        border-radius 5px
+        padding 15px
+        position relative
+
+        div
+          position absolute
+          top -12px
+          background white
+
+        select
+          border none
+          width 100%
+          background none
+
+
+      .formRegisterToJobPhotoInput
+        .formRegisterToJobPhotoInputFile
+          top 0
+          position relative
+          display flex
+          align-items center
+          div
+            position relative
+            top 0
+            height 100%
+          .formRegisterToJobPhotoInputFileBtn
+            position absolute
+            right -16px
+            top -16px
+
+            #raised-button-file
+              width 130px
+              height 56px
+              position absolute
+              z-index 2
+              opacity 0
+              input
+                height 56px
+
+
+
+            button
+
+              position relative
+              width 130px
+              height 56px
+              border-radius 0 5px 5px 0
+              border 2px solid #ef6c00
+              background white
+              color #ef6c00
+              z-index 1
+              box-sizing border-box
+              font-family: 'Source Sans Pro'
+              font-weight 600
+              font-size: 20px
+
+      .formRegisterToJobError
+        padding-left 5px
+        font-size 14px
+        font-family "Roboto"
+        color red
+  .registerToJobSignUp
+    display block
+    margin 30px auto 149px
+    border none
+    width: 290px
+    height: 40px
+    border-radius: 4px
+    box-shadow: 3.5px 6.1px 7.6px 1.4px rgba(0, 0, 0, 0.11)
+    background-color: #d7d7d7
+    font-family: SourceSansPro;
+    font-size: 20px
+    font-weight: bold
+    color: #8d8c8c
+    outline none
+
+
+  .formRegisterToJobResult
+    position fixed
+    top 174px
+    width 96%
+    height 100vh
+    background transparent
+    padding 150px
+    z-index 14
+
+    .formRegisterToJobResultLayer
+      padding 20px
+      width 300px
+      height 200px
+      border 3px solid #b7b7b7
+      position relative
+      z-index 15
+      background white
+      border-radius 10px
+      .formRegisterToJobResultOK
+        background white
+        position absolute
+        right 20px
+        bottom 20px
+        font-weight bold
+        width 30px
+        text-align center
+@media (max-width: 1024px)
+  .registerToJob
+     padding 0 10px
+    .registerToJobHeader
+      margin 139px 0 22px
+
+@media (max-width: 768px)
+  .registerToJob
+    .registerToJobHeader
+      margin 139px 0 22px
+
+@media (max-width: 425px)
+  .registerToJob
+    .registerToJobHeader
+      margin-top 0
+      font-size 26px
+
+    .registerToJobAttention
+      font-size 16px
+      max-width 280px
+      margin 0 auto
+
+    .formRegisterToJob
+      display flex
+      flex-direction column
+      margin 2px
+
+      .registerToJobUserName,.registerToJobUserEmail,.registerToJobUserPhone
+        width 100%
+
+      .formRegisterToJobPosition,.formRegisterToJobPhoto
+        margin 10px 0
+
+
+    .formRegisterToJobResult
+      padding 50px 50px 0
+
+@media (max-width: 320px)
+  .registerToJob
+    .formRegisterToJobResult
+      padding 50px 0 0

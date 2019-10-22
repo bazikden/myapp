@@ -1,0 +1,143 @@
+.AgencyHeaderLayout
+  margin 0 auto
+  height 64px
+  position fixed
+  width 100%
+  background #ffffff
+  border-bottom 1px solid black
+  align-items center
+  z-index 90
+  .agency-header
+    max-width 1140px
+    height 100%
+    display flex
+    justify-content space-between
+    align-items center
+    margin 0 auto
+    background #ffffff
+    //z-index 1000
+
+    img
+      margin-left 10px
+      width 134px
+      height 24px
+
+    .AgencyHeaderMenuLogin
+      flex-basis 80%
+      align-items center
+      display flex
+      justify-content space-around
+      .agency-header-menu
+        display flex
+        .agency-header-menu-item
+          padding 0 15px
+          text-decoration none
+          font-family: 'Source Sans Pro',sans-serif
+          font-size: 16px
+          color: #000000
+          font-weight 500
+
+
+
+      .agency-login
+        display flex
+        .agency-user-info
+          .agency-user-name
+            text-align right
+
+            font-family: 'Source Sans Pro',sans-serif
+            font-size: 14px
+            font-weight bold
+            color #000000
+
+          .agency-user-email
+
+            font-family: 'Source Sans Pro',sans-serif
+            font-size: 12px
+            color: #8d8c8c
+
+        .agency-login-icons
+          display flex
+          align-items center
+          //padding-right 20px
+          .agency-user-icon
+            width 40px
+            height 40px
+            display block
+            border-radius 20px
+            margin 0 13px
+
+          .agency-sign-out
+            width: 24px
+            height: 20px
+
+    .AgencyHeaderMenuIcon
+      margin-right 24px
+      display none
+      img
+        width 24px
+        height 24px
+
+
+
+@media (max-width: 768px)
+  .AgencyHeaderLayout
+    .agency-header
+      .AgencyHeaderMenuLogin
+        flex-direction column-reverse
+        justify-content flex-end
+        position absolute
+        align-items flex-start
+        top 63px
+        background #f2f2f2
+        overflow hidden
+        max-width 0
+        max-height  500px
+        transition 1s
+
+
+        .agency-header-menu
+          display flex
+          flex-direction column
+          justify-content center
+
+          .agency-header-menu-item
+            max-width  100%
+            margin 20px 100px 20px 0
+
+        .agency-login
+          flex-direction column-reverse
+          padding-bottom 20px
+          border-bottom 1px solid black
+          margin 20px 15px 0 15px
+          align-self flex-start
+          .agency-login-icons
+            .agency-user-icon
+              margin 0
+
+
+          .agency-user-info
+
+            .agency-user-name
+              text-align left
+              margin-bottom 5px
+
+          img
+            display none
+
+
+
+
+      .AgencyHeaderMenuLogin.showed
+        max-width 70%
+        transition 0.5s
+
+      .AgencyHeaderMenuIcon
+        display block
+
+//@media (max-width: 425px)
+//  .AgencyHeaderLayout
+//    .agency-header
+//      .AgencyHeaderMenuLogin.showed
+//        max-width 50%
+//        transition 0.5s
