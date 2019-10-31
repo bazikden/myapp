@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/myapp/static/css/main.0decf838.chunk.css",
-    "main.js": "/myapp/static/js/main.747742b5.chunk.js",
-    "main.js.map": "/myapp/static/js/main.747742b5.chunk.js.map",
+    "main.js": "/myapp/static/js/main.7292c5d3.chunk.js",
+    "main.js.map": "/myapp/static/js/main.7292c5d3.chunk.js.map",
     "runtime~main.js": "/myapp/static/js/runtime~main.3d5bda68.js",
     "runtime~main.js.map": "/myapp/static/js/runtime~main.3d5bda68.js.map",
     "static/js/2.75960628.chunk.js": "/myapp/static/js/2.75960628.chunk.js",
     "static/js/2.75960628.chunk.js.map": "/myapp/static/js/2.75960628.chunk.js.map",
     "index.html": "/myapp/index.html",
-    "precache-manifest.e26adbcf86f35313a378c033a92aaf0a.js": "/myapp/precache-manifest.e26adbcf86f35313a378c033a92aaf0a.js",
+    "precache-manifest.4e41f4fe77982cdafa1743e5fe393588.js": "/myapp/precache-manifest.4e41f4fe77982cdafa1743e5fe393588.js",
     "service-worker.js": "/myapp/service-worker.js",
     "static/css/main.0decf838.chunk.css.map": "/myapp/static/css/main.0decf838.chunk.css.map",
     "static/media/Beans_logo.svg": "/myapp/static/media/Beans_logo.4591afda.svg",
