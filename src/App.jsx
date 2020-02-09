@@ -16,6 +16,7 @@ const App = () =>{
                 <Route path='/landing' render={()=><LandingContainer/>}/>
                 <Route path='/aviasales' render={()=><Aviasales/>}/>
                 <Route path='/agency' render={()=><Agency/>}/>
+
             </div>
 
         </div>

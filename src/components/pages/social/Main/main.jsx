@@ -6,7 +6,7 @@ import {ProfileContainer,Messages,FriendsContainer,VideoContainer,Settings,UserC
 export const Main = () => {
     return (
         <div className='main-social'>
-            <Route path='/social' render={()=><Redirect to={'/social/profile/'}/>}/>
+            <Route exact path='/social' render={()=><Redirect to={'/social/profile/'}/>}/>
             <Route path='/social/profile/:userId?' render={() => <ProfileContainer/>}/>
             <Route path='/social/messages' render={() => <Messages/>}/>
             <Route path='/social/users/' render={() => <UserContainer/>}/>

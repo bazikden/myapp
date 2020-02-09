@@ -37,7 +37,7 @@ export const Header = (props) =>{
                                 </NavLink>
                             </div>
                         }
-                        <NavLink className='logined'  to ='login'>{props.logined?  props.loginedUser.fullName:'Log In'}</NavLink>
+                        <NavLink className='logined'  to ='/social/login'>{props.logined?  props.loginedUser.fullName:'Log In'}</NavLink>
                     </div>
 
 
